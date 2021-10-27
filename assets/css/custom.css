@@ -1,0 +1,238 @@
+header.masthead h1, header.masthead .h1 {
+    font-size: calc(1.375rem + 1.5vw);
+    line-height: 1.2;
+}
+
+header.masthead h2, header.masthead .h2 {
+    font-size: calc(1.325rem + 0.9vw);
+    font-family: "Lato", sans-serif;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.copyright {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 100px;
+}
+
+.img-container {
+    padding: 20px;
+}
+
+.about-me {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.about-me p {
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.gradient {
+    background: linear-gradient(120deg, #7f70f5, #0ea0ff);
+    color: #fff;
+}
+
+.bg-primary {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
+}
+
+@media (min-width: 992px) {
+    header.masthead {
+        padding-top: calc(6rem + 106px);
+        padding-bottom: 1rem;
+    }
+}
+
+header .masthead {
+    padding-top: calc(6rem + 72px);
+    padding-bottom: 1rem;
+}
+
+.navbar-toggler {
+    color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
+}
+
+.profile .container {
+    font-weight: bold;
+}
+
+@media (min-width: 576px) {
+    main {
+        padding-top: 11.5rem;
+    }
+}
+
+main {
+    padding-top: 11.5rem;
+}
+
+.portfolio-block.cv {
+    padding-top: 70px;
+}
+
+@media (min-width: 768px) {
+    .portfolio-block {
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+}
+
+.portfolio-block {
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+.portfolio-block .heading h2, .portfolio-block .heading .h2 {
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.portfolio-block.cv h2, .portfolio-block.cv .h2 {
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
+@media (min-width: 768px) {
+    .portfolio-block .heading h2, .portfolio-block .heading .h2 {
+        font-size: 2rem;
+    }
+}
+
+.portfolio-block.cv .group .item {
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #eee;
+}
+
+@media (min-width: 768px) {
+    .portfolio-block.cv .item {
+        font-weight: 300;
+    }
+}
+
+.portfolio-block.cv .education.group .organization {
+    background-color: #20c997;
+}
+
+.portfolio-block.cv .group .organization {
+    font-size: .85em;
+    background-color: #0ea0ff;
+    display: inline-block;
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 2em;
+}
+
+@media (min-width: 768px) {
+    .portfolio-block.cv .group .period {
+        float: right;
+    }
+}
+
+.portfolio-block.cv .group .period {
+    font-size: .8rem;
+    float: right;
+    font-weight: bold;
+    margin-top: 4px;
+    color: #6c757d;
+    opacity: .8;
+}
+
+.portfolio-block.cv .group:not(:first-child) {
+    margin-top: 90px;
+}
+
+.portfolio-block.cv .group {
+    max-width: 800px;
+    margin: auto;
+}
+
+@media (min-width: 768px) {
+    .portfolio-block .heading {
+        margin-bottom: 80px;
+    }
+}
+
+.portfolio-block .heading {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.heading h2 {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.2;
+}
+.col-md-6 h3 {
+    font-family: "lato", sans-serif;
+}
+.col-md-6 h4 {
+    font-family: "lato", sans-serif;
+}
+.portfolio-block.cv .group .item .row {
+    margin-bottom: 5px;
+}
+.portfolio-block.cv .education h3, .portfolio-block.cv .education .h3 {
+    font-weight: bold;
+}
+.portfolio-block.cv h3, .portfolio-block.cv .h3 {
+    font-size: 1.3rem;
+}
+
+.profile{
+    padding-bottom: 122px;
+}
+.profile .row{
+    font-weight: normal;
+}
+.skill {
+    padding-bottom: 122px;
+}
+.main-skill {
+    padding-top: 8.5rem;
+}
+.social-icons a{
+    font-size: 18px;
+    margin: 0 3px;
+    color: #fff;
+    border: 1px solid;
+    opacity: .75;
+    border-radius: 50%;
+    width: 2em;
+    height: 2em;
+    display: inline-block;
+    text-align: center;
+    background-color: #c5c9d2;
+    line-height: 30px;
+}
+.icon-inner {
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+}
+.footer-copyright{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.social-icons{
+    margin-top: 22px;
+    margin-bottom: 20px;
+}
+
+table, tr, th, td {
+    border: 1px solid black;
+    text-align: center;
+}
